@@ -1,0 +1,58 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin:2em;
+    /* 2 times the size of the current font */
+  }
+  h1 {
+    font-style: italic;
+  }
+  h1, p {
+     text-align:center;
+  }
+  
+  button {
+    padding: 8px 18px;  
+    font-size: 14px;
+    color: black;
+      border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  /* exercise1 -----------------------------------*/
+  .exercise1 h1{
+    color: #4C1A46;
+  }
+  
+  #result {
+    color:purple;
+  }
+  
+  #countUpBtn {
+    /* buttons are inline elements */
+    background: #cb99c5;
+    display: block;
+    margin: 0 auto;
+  }
+  /* exercise2 -----------------------------------*/
+  .btnContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .exercise2 {
+    background-color: black;
+    margin: 20px 0;
+  }
+  .exercise2 h1,.exercise2 p {
+    color: #F5F5F5;
+  }
+  
+  #goodBtn {
+    background-color: #9abf7f;
+  }
+  #awesomeBtn {
+    background-color: #fa5a5a;
+  }
+  
+  
